@@ -1,0 +1,3 @@
+[submodule "corpusreader"]
+	path = corpusreader
+	url = https://gitlab.com/webnlg/corpus-reader.git
