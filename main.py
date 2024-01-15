@@ -77,8 +77,8 @@ def main(args):
         if not os.path.exists(checkpoint_model_path):
             checkpoint_model_path = None
 
-        trainer = pl.Trainer(accelerator=args.accelerator, 
-                            default_root_dir=args.default_root_dir,
+        trainer = pl.Trainer(default_root_dir=args.default_root_dir,
+                            accelerator=args.accelerator, 
                             max_epochs=args.max_epochs,
                             num_nodes=args.num_nodes,
                             num_sanity_val_steps=args.num_sanity_val_steps,
@@ -116,8 +116,8 @@ def main(args):
 
         dm.setup(stage='test')
 
-        trainer = pl.Trainer(accelerator=args.accelerator, 
-                            default_root_dir=args.default_root_dir,
+        trainer = pl.Trainer(default_root_dir=args.default_root_dir,
+                            accelerator=args.accelerator, 
                             max_epochs=args.max_epochs,
                             num_nodes=args.num_nodes,
                             num_sanity_val_steps=args.num_sanity_val_steps,
@@ -168,7 +168,6 @@ if __name__ == "__main__":
     parser = ArgumentParser(description='Arguments')
 
     parser.add_argument("--dataset", type=str, default='webnlg')
-    parser.add_argument("--default_root_dir", type=str, default="output")
     parser.add_argument("--run", type=str, default='train')
     parser.add_argument('--pretrained_model', type=str, default='t5-large')
     parser.add_argument('--version', type=str, default='0')
@@ -188,7 +187,22 @@ if __name__ == "__main__":
     parser.add_argument("--dropout_rate", type=float, default=0.5)
     parser.add_argument("--num_layers", type=int, default=1)
     parser.add_argument("--eval_dump_only", type=int, default=0)
+    
+    # pytorch lightning params
+    parser.add_argument("--default_root_dir", type=str, default="output")
     parser.add_argument("--accelerator", type=str, default="cpu")
+    parser.add_argument("--max_epochs", type=int, default=100)
+    parser.add_argument("--num_nodes", type=int, default=1)
+    parser.add_argument("--num_sanity_val_steps", type=int, default=0)
+    parser.add_argument("--fast_dev_run", type=int, default=0)
+    parser.add_argument("--overfit_batches", type=int, default=0)
+    parser.add_argument("--limit_train_batches", type=float, default=1.0)
+    parser.add_argument("--limit_val_batches", type=float, default=1.0)
+    parser.add_argument("--limit_test_batches", type=float, default=1.0)
+    parser.add_argument("--accumulate_grad_batches", type=int, default=10)
+    parser.add_argument("--detect_anomaly", type=bool, default=True)
+    parser.add_argument("--log_every_n_steps", type=int, default=100)
+    parser.add_argument("--val_check_interval", type=int, default=1000)
     parser.add_argument("--inference_input_text", type=str,
                         default='Danielle Harris had a main role in Super Capers, a 98 minute long movie.') 
     #parser = pl.Trainer.add_argparse_args(parser)

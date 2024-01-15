@@ -111,6 +111,12 @@ Some additional libraries are required, such as `SentencePie`(See below).
 T5Tokenizer requires the SentencePiece library but it was not found in your environment. Checkout the instructions on the installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones that match your environment. Please note that you may need to restart your runtime after installation.
 ```
 
-Instead of just cloning the two separately needed git repositories corpusreader and WebNLG-Text-to-triples, I added them as submodules (See [Setup](#Setup) section).
+Instead of just cloning the two separately needed git repositories corpusreader and WebNLG-Text-to-triples, I added them as submodules (See [Setup](#Setup) section) and included them in gitignore in order to not track the pycache changes.
 
 Add parameter cache_dir because the model training requires 2950.74 MB for T5.
+
+I updated two functions in litgrapher.py due to incompatibilities with pytorch_lightning >= 2.0.0:
+```
+validation_epoch_end -> on_validation_epoch_end
+test_epoch_end -> on_test_epoch_end
+```

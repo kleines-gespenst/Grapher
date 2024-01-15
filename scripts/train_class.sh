@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 cd ../
 python3 main.py   --version 1\
-                  --default_root_dir output \
                   --run train \
                   --num_data_workers 4 \
                   --lr 1e-4 \
@@ -14,8 +13,9 @@ python3 main.py   --version 1\
                   --num_layers 2 \
                   --edges_as_classes 1 \
                   --checkpoint_model_id -1 \
+                  --default_root_dir output \
                   --accelerator cpu \
-                  --max_epochs 100 \ 
+                  --max_epochs 100 \
                   --num_nodes 1 \
                   --num_sanity_val_steps 0 \
                   --fast_dev_run 0 \

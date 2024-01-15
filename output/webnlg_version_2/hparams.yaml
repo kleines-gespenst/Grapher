@@ -1,0 +1,2071 @@
+bos_token_id: 0
+cache_dir: /mnt/data/core/Grapher/cache
+default_seq_len_edge: 20
+dropout_rate: 0.5
+edge_classes:
+- bird
+- course
+- district
+- recordLabel
+- stateOfOrigin
+- author
+- fossil
+- wasGivenTheTechnicalCampusStatusBy
+- productionEndYear
+- icaoLocationIdentifier
+- alternativeName
+- stylisticOrigin
+- areaTotal
+- order
+- eissnNumber
+- origin
+- predecessor
+- hasToItsNortheast
+- foundedBy
+- broadcastedBy
+- capital
+- lastAired
+- director
+- cylinderCount
+- hasToItsSouthwest
+- birthPlace
+- height
+- currentteam
+- established
+- 2ndRunwaySurfaceType
+- numberOfMembers
+- associatedBand/associatedMusicalArtist
+- builder
+- backupPilot
+- draftTeam
+- areaCode
+- militaryBranch
+- escapeVelocity
+- 5thRunwaySurfaceType
+- activeYearsStartYear
+- champions
+- diameter
+- language
+- protein
+- deathYear
+- mediaType
+- religion
+- foundationPlace
+- iataLocationIdentifier
+- higher
+- elevationAboveTheSeaLevel
+- populationTotal
+- isPartOf
+- codenCode
+- timeZone
+- precededBy
+- leaderTitle
+- doctoralAdvisor
+- college
+- engine
+- title
+- NationalRegisterOfHistoricPlacesReferenceNumber
+- discovered
+- operatingIncome
+- location
+- layout
+- operator
+- militaryRank
+- bedCount
+- residence
+- largestCity
+- designer
+- powerType
+- apoapsis
+- inOfficeWhileMonarch
+- 1stRunwayLengthMetre
+- weight
+- founder
+- shipBeam
+- 3rdRunwaySurfaceType
+- patronSaint
+- numberOfVotesAttained
+- mass
+- occupation
+- family
+- carbohydrate
+- officialSchoolColour
+- buildDate
+- numberOfPages
+- locationIdentifier
+- gemstone
+- position
+- address
+- academicDiscipline
+- spouse
+- draftRound
+- runwaySurfaceType
+- state
+- servingSize
+- serviceStartYear
+- owningOrganisation
+- deathDate
+- periapsis
+- municipality
+- width
+- river
+- demonym
+- significantProject
+- topSpeed
+- served
+- formerTeam
+- completionDate
+- yearOfConstruction
+- length
+- birthDate
+- cost
+- numberOfPostgraduateStudents
+- notableWork
+- battle
+- hasToItsWest
+- neighboringMunicipality
+- dateOfRetirement
+- owner
+- dishVariation
+- parentCompany
+- floorCount
+- office
+- 1stRunwayNumber
+- category
+- runwayName
+- almaMater
+- playerNumber
+- city
+- anthem
+- partialFailures
+- density
+- representative
+- shipDraft
+- firstAppearanceInFilm
+- mayor
+- stadium
+- shipLaidDown
+- administrativeArrondissement
+- chairmanTitle
+- hubAirport
+- unit
+- surfaceArea
+- publisher
+- party
+- instrument
+- sportsOffered
+- 1stRunwayLengthFeet
+- 4thRunwayLengthFeet
+- inOfficeWhileVicePresident
+- trainerAircraft
+- dedicatedTo
+- function
+- issnNumber
+- utcOffset
+- hasToItsSoutheast
+- maximumTemperature
+- season
+- division
+- inOfficeWhilePresident
+- colour
+- voice
+- shipPower
+- numberOfUndergraduateStudents
+- employer
+- distributingCompany
+- crewMembers
+- governmentType
+- totalProduction
+- attackAircraft
+- launchSite
+- deathPlace
+- place
+- musicFusionGenre
+- currentclub
+- regionServed
+- transmission
+- chairman
+- numberOfEmployees
+- competeIn
+- mainIngredient
+- countySeat
+- finalFlight
+- draftPick
+- firstAired
+- service
+- latinName
+- developer
+- transportAircraft
+- editor
+- hasToItsNorth
+- award
+- netIncome
+- shipClass
+- areaOfLand
+- series
+- officialLanguage
+- creator
+- meanTemperature
+- musicSubgenre
+- distributor
+- inOfficeWhileGovernor
+- rocketStages
+- cityServed
+- nationality
+- numberOfRooms
+- child
+- professionalField
+- genus
+- impactFactor
+- nativeName
+- legislature
+- ground
+- generalManager
+- creatorOfDish
+- isbnNumber
+- failedLaunches
+- deathCause
+- productionStartYear
+- genre
+- garrison
+- 5thRunwayNumber
+- percentageOfAreaWater
+- aircraftHelicopter
+- followedBy
+- hasToItsNorthwest
+- countryOrigin
+- status
+- 1stRunwaySurfaceType
+- affiliation
+- selectedByNasa
+- activeYearsStartDate
+- aircraftFighter
+- nearestCity
+- country
+- commander
+- 4thRunwaySurfaceType
+- bandMember
+- chancellor
+- keyPerson
+- areaUrban
+- isPartOfMilitaryConflict
+- leader
+- region
+- longName
+- mostChampions
+- relatedMeanOfTransportation
+- birthYear
+- operatingOrganisation
+- website
+- successor
+- mission
+- profession
+- floorArea
+- currentTenants
+- part
+- league
+- LCCN_number
+- leaderParty
+- addedToTheNationalRegisterOfHistoricPlaces
+- related
+- draftYear
+- type
+- currency
+- product
+- inOfficeWhilePrimeMinister
+- bodyStyle
+- shipInService
+- shipOrdered
+- minimumTemperature
+- spokenIn
+- motto
+- formerName
+- similarDish
+- manager
+- chief
+- derivative
+- doctoralStudent
+- absoluteMagnitude
+- christeningDate
+- servedAsChiefOfTheAstronautOfficeIn
+- awards
+- servingTemperature
+- libraryofCongressClassification
+- maidenFlight
+- outlookRanking
+- areaOfWater
+- associatedRocket
+- material
+- dean
+- foundingDate
+- abbreviation
+- ingredient
+- senators
+- runwayLength
+- background
+- fate
+- comparable
+- jurisdiction
+- universityTeam
+- youthclub
+- influencedBy
+- averageSpeed
+- club
+- subsidiary
+- governingBody
+- mascot
+- buildingType
+- class
+- manufacturer
+- industry
+- modelYears
+- site
+- saint
+- oclcNumber
+- president
+- elevationAboveTheSeaLevelInMetres
+- modelStartYear
+- inaugurationDate
+- timeInSpace
+- activeYearsEndDate
+- populationDensity
+- literaryGenre
+- buildingStartDate
+- shipLaunch
+- nickname
+- orbitalPeriod
+- frequency
+- rector
+- rotationPeriod
+- chairperson
+- assembly
+- academicStaffSize
+- campus
+- sportGoverningBody
+- epoch
+- maidenVoyage
+- totalLaunches
+- activeYearsEndYear
+- ribbonAward
+- wheelbase
+- postalCode
+- fullName
+- shipDisplacement
+- tenant
+- architecturalStyle
+- hasDeputy
+- headquarter
+- discoverer
+- significantBuilding
+- birthName
+- numberOfLocations
+- year
+- numberOfStudents
+- debutTeam
+- architecture
+- 3rdRunwayLengthFeet
+- architect
+- ethnicGroup
+- revenue
+- firstPublicationYear
+- partsType
+- fat
+- elevationAboveTheSeaLevelInFeet
+- designCompany
+- coach
+- temperature
+- starring
+- __no_edge__
+edges_as_classes: 0
+eos_token_id: 1
+eval_dir: output/webnlg_version_2
+focal_loss_gamma: 3.0
+lr: 0.0001
+max_edges: 7
+max_nodes: 8
+node_sep_id: 32102
+noedge_cl: 372
+noedge_id: 32101
+nonode_id: 32100
+num_classes: 373
+num_layers: 2
+tokenizer: !!python/object:transformers.models.t5.tokenization_t5.T5Tokenizer
+  _added_tokens_decoder:
+    0: &id002 !!python/object:tokenizers.AddedToken
+      content: <pad>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    1: &id001 !!python/object:tokenizers.AddedToken
+      content: </s>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    2: &id003 !!python/object:tokenizers.AddedToken
+      content: <unk>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32000: !!python/object:tokenizers.AddedToken
+      content: <extra_id_99>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32001: !!python/object:tokenizers.AddedToken
+      content: <extra_id_98>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32002: !!python/object:tokenizers.AddedToken
+      content: <extra_id_97>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32003: !!python/object:tokenizers.AddedToken
+      content: <extra_id_96>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32004: !!python/object:tokenizers.AddedToken
+      content: <extra_id_95>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32005: !!python/object:tokenizers.AddedToken
+      content: <extra_id_94>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32006: !!python/object:tokenizers.AddedToken
+      content: <extra_id_93>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32007: !!python/object:tokenizers.AddedToken
+      content: <extra_id_92>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32008: !!python/object:tokenizers.AddedToken
+      content: <extra_id_91>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32009: !!python/object:tokenizers.AddedToken
+      content: <extra_id_90>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32010: !!python/object:tokenizers.AddedToken
+      content: <extra_id_89>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32011: !!python/object:tokenizers.AddedToken
+      content: <extra_id_88>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32012: !!python/object:tokenizers.AddedToken
+      content: <extra_id_87>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32013: !!python/object:tokenizers.AddedToken
+      content: <extra_id_86>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32014: !!python/object:tokenizers.AddedToken
+      content: <extra_id_85>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32015: !!python/object:tokenizers.AddedToken
+      content: <extra_id_84>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32016: !!python/object:tokenizers.AddedToken
+      content: <extra_id_83>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32017: !!python/object:tokenizers.AddedToken
+      content: <extra_id_82>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32018: !!python/object:tokenizers.AddedToken
+      content: <extra_id_81>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32019: !!python/object:tokenizers.AddedToken
+      content: <extra_id_80>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32020: !!python/object:tokenizers.AddedToken
+      content: <extra_id_79>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32021: !!python/object:tokenizers.AddedToken
+      content: <extra_id_78>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32022: !!python/object:tokenizers.AddedToken
+      content: <extra_id_77>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32023: !!python/object:tokenizers.AddedToken
+      content: <extra_id_76>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32024: !!python/object:tokenizers.AddedToken
+      content: <extra_id_75>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32025: !!python/object:tokenizers.AddedToken
+      content: <extra_id_74>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32026: !!python/object:tokenizers.AddedToken
+      content: <extra_id_73>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32027: !!python/object:tokenizers.AddedToken
+      content: <extra_id_72>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32028: !!python/object:tokenizers.AddedToken
+      content: <extra_id_71>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32029: !!python/object:tokenizers.AddedToken
+      content: <extra_id_70>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32030: !!python/object:tokenizers.AddedToken
+      content: <extra_id_69>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32031: !!python/object:tokenizers.AddedToken
+      content: <extra_id_68>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32032: !!python/object:tokenizers.AddedToken
+      content: <extra_id_67>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32033: !!python/object:tokenizers.AddedToken
+      content: <extra_id_66>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32034: !!python/object:tokenizers.AddedToken
+      content: <extra_id_65>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32035: !!python/object:tokenizers.AddedToken
+      content: <extra_id_64>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32036: !!python/object:tokenizers.AddedToken
+      content: <extra_id_63>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32037: !!python/object:tokenizers.AddedToken
+      content: <extra_id_62>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32038: !!python/object:tokenizers.AddedToken
+      content: <extra_id_61>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32039: !!python/object:tokenizers.AddedToken
+      content: <extra_id_60>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32040: !!python/object:tokenizers.AddedToken
+      content: <extra_id_59>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32041: !!python/object:tokenizers.AddedToken
+      content: <extra_id_58>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32042: !!python/object:tokenizers.AddedToken
+      content: <extra_id_57>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32043: !!python/object:tokenizers.AddedToken
+      content: <extra_id_56>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32044: !!python/object:tokenizers.AddedToken
+      content: <extra_id_55>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32045: !!python/object:tokenizers.AddedToken
+      content: <extra_id_54>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32046: !!python/object:tokenizers.AddedToken
+      content: <extra_id_53>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32047: !!python/object:tokenizers.AddedToken
+      content: <extra_id_52>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32048: !!python/object:tokenizers.AddedToken
+      content: <extra_id_51>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32049: !!python/object:tokenizers.AddedToken
+      content: <extra_id_50>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32050: !!python/object:tokenizers.AddedToken
+      content: <extra_id_49>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32051: !!python/object:tokenizers.AddedToken
+      content: <extra_id_48>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32052: !!python/object:tokenizers.AddedToken
+      content: <extra_id_47>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32053: !!python/object:tokenizers.AddedToken
+      content: <extra_id_46>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32054: !!python/object:tokenizers.AddedToken
+      content: <extra_id_45>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32055: !!python/object:tokenizers.AddedToken
+      content: <extra_id_44>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32056: !!python/object:tokenizers.AddedToken
+      content: <extra_id_43>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32057: !!python/object:tokenizers.AddedToken
+      content: <extra_id_42>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32058: !!python/object:tokenizers.AddedToken
+      content: <extra_id_41>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32059: !!python/object:tokenizers.AddedToken
+      content: <extra_id_40>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32060: !!python/object:tokenizers.AddedToken
+      content: <extra_id_39>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32061: !!python/object:tokenizers.AddedToken
+      content: <extra_id_38>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32062: !!python/object:tokenizers.AddedToken
+      content: <extra_id_37>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32063: !!python/object:tokenizers.AddedToken
+      content: <extra_id_36>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32064: !!python/object:tokenizers.AddedToken
+      content: <extra_id_35>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32065: !!python/object:tokenizers.AddedToken
+      content: <extra_id_34>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32066: !!python/object:tokenizers.AddedToken
+      content: <extra_id_33>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32067: !!python/object:tokenizers.AddedToken
+      content: <extra_id_32>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32068: !!python/object:tokenizers.AddedToken
+      content: <extra_id_31>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32069: !!python/object:tokenizers.AddedToken
+      content: <extra_id_30>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32070: !!python/object:tokenizers.AddedToken
+      content: <extra_id_29>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32071: !!python/object:tokenizers.AddedToken
+      content: <extra_id_28>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32072: !!python/object:tokenizers.AddedToken
+      content: <extra_id_27>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32073: !!python/object:tokenizers.AddedToken
+      content: <extra_id_26>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32074: !!python/object:tokenizers.AddedToken
+      content: <extra_id_25>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32075: !!python/object:tokenizers.AddedToken
+      content: <extra_id_24>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32076: !!python/object:tokenizers.AddedToken
+      content: <extra_id_23>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32077: !!python/object:tokenizers.AddedToken
+      content: <extra_id_22>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32078: !!python/object:tokenizers.AddedToken
+      content: <extra_id_21>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32079: !!python/object:tokenizers.AddedToken
+      content: <extra_id_20>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32080: !!python/object:tokenizers.AddedToken
+      content: <extra_id_19>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32081: !!python/object:tokenizers.AddedToken
+      content: <extra_id_18>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32082: !!python/object:tokenizers.AddedToken
+      content: <extra_id_17>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32083: !!python/object:tokenizers.AddedToken
+      content: <extra_id_16>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32084: !!python/object:tokenizers.AddedToken
+      content: <extra_id_15>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32085: !!python/object:tokenizers.AddedToken
+      content: <extra_id_14>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32086: !!python/object:tokenizers.AddedToken
+      content: <extra_id_13>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32087: !!python/object:tokenizers.AddedToken
+      content: <extra_id_12>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32088: !!python/object:tokenizers.AddedToken
+      content: <extra_id_11>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32089: !!python/object:tokenizers.AddedToken
+      content: <extra_id_10>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32090: !!python/object:tokenizers.AddedToken
+      content: <extra_id_9>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32091: !!python/object:tokenizers.AddedToken
+      content: <extra_id_8>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32092: !!python/object:tokenizers.AddedToken
+      content: <extra_id_7>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32093: !!python/object:tokenizers.AddedToken
+      content: <extra_id_6>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32094: !!python/object:tokenizers.AddedToken
+      content: <extra_id_5>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32095: !!python/object:tokenizers.AddedToken
+      content: <extra_id_4>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32096: !!python/object:tokenizers.AddedToken
+      content: <extra_id_3>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32097: !!python/object:tokenizers.AddedToken
+      content: <extra_id_2>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32098: !!python/object:tokenizers.AddedToken
+      content: <extra_id_1>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32099: !!python/object:tokenizers.AddedToken
+      content: <extra_id_0>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    32100: !!python/object:tokenizers.AddedToken
+      content: __no_node__
+      lstrip: false
+      normalized: true
+      rstrip: false
+      single_word: false
+      special: false
+    32101: !!python/object:tokenizers.AddedToken
+      content: __no_edge__
+      lstrip: false
+      normalized: true
+      rstrip: false
+      single_word: false
+      special: false
+    32102: !!python/object:tokenizers.AddedToken
+      content: __node_sep__
+      lstrip: false
+      normalized: true
+      rstrip: false
+      single_word: false
+      special: false
+  _added_tokens_encoder:
+    </s>: 1
+    <extra_id_0>: 32099
+    <extra_id_10>: 32089
+    <extra_id_11>: 32088
+    <extra_id_12>: 32087
+    <extra_id_13>: 32086
+    <extra_id_14>: 32085
+    <extra_id_15>: 32084
+    <extra_id_16>: 32083
+    <extra_id_17>: 32082
+    <extra_id_18>: 32081
+    <extra_id_19>: 32080
+    <extra_id_1>: 32098
+    <extra_id_20>: 32079
+    <extra_id_21>: 32078
+    <extra_id_22>: 32077
+    <extra_id_23>: 32076
+    <extra_id_24>: 32075
+    <extra_id_25>: 32074
+    <extra_id_26>: 32073
+    <extra_id_27>: 32072
+    <extra_id_28>: 32071
+    <extra_id_29>: 32070
+    <extra_id_2>: 32097
+    <extra_id_30>: 32069
+    <extra_id_31>: 32068
+    <extra_id_32>: 32067
+    <extra_id_33>: 32066
+    <extra_id_34>: 32065
+    <extra_id_35>: 32064
+    <extra_id_36>: 32063
+    <extra_id_37>: 32062
+    <extra_id_38>: 32061
+    <extra_id_39>: 32060
+    <extra_id_3>: 32096
+    <extra_id_40>: 32059
+    <extra_id_41>: 32058
+    <extra_id_42>: 32057
+    <extra_id_43>: 32056
+    <extra_id_44>: 32055
+    <extra_id_45>: 32054
+    <extra_id_46>: 32053
+    <extra_id_47>: 32052
+    <extra_id_48>: 32051
+    <extra_id_49>: 32050
+    <extra_id_4>: 32095
+    <extra_id_50>: 32049
+    <extra_id_51>: 32048
+    <extra_id_52>: 32047
+    <extra_id_53>: 32046
+    <extra_id_54>: 32045
+    <extra_id_55>: 32044
+    <extra_id_56>: 32043
+    <extra_id_57>: 32042
+    <extra_id_58>: 32041
+    <extra_id_59>: 32040
+    <extra_id_5>: 32094
+    <extra_id_60>: 32039
+    <extra_id_61>: 32038
+    <extra_id_62>: 32037
+    <extra_id_63>: 32036
+    <extra_id_64>: 32035
+    <extra_id_65>: 32034
+    <extra_id_66>: 32033
+    <extra_id_67>: 32032
+    <extra_id_68>: 32031
+    <extra_id_69>: 32030
+    <extra_id_6>: 32093
+    <extra_id_70>: 32029
+    <extra_id_71>: 32028
+    <extra_id_72>: 32027
+    <extra_id_73>: 32026
+    <extra_id_74>: 32025
+    <extra_id_75>: 32024
+    <extra_id_76>: 32023
+    <extra_id_77>: 32022
+    <extra_id_78>: 32021
+    <extra_id_79>: 32020
+    <extra_id_7>: 32092
+    <extra_id_80>: 32019
+    <extra_id_81>: 32018
+    <extra_id_82>: 32017
+    <extra_id_83>: 32016
+    <extra_id_84>: 32015
+    <extra_id_85>: 32014
+    <extra_id_86>: 32013
+    <extra_id_87>: 32012
+    <extra_id_88>: 32011
+    <extra_id_89>: 32010
+    <extra_id_8>: 32091
+    <extra_id_90>: 32009
+    <extra_id_91>: 32008
+    <extra_id_92>: 32007
+    <extra_id_93>: 32006
+    <extra_id_94>: 32005
+    <extra_id_95>: 32004
+    <extra_id_96>: 32003
+    <extra_id_97>: 32002
+    <extra_id_98>: 32001
+    <extra_id_99>: 32000
+    <extra_id_9>: 32090
+    <pad>: 0
+    <unk>: 2
+    __no_edge__: 32101
+    __no_node__: 32100
+    __node_sep__: 32102
+  _additional_special_tokens:
+  - <extra_id_0>
+  - <extra_id_1>
+  - <extra_id_2>
+  - <extra_id_3>
+  - <extra_id_4>
+  - <extra_id_5>
+  - <extra_id_6>
+  - <extra_id_7>
+  - <extra_id_8>
+  - <extra_id_9>
+  - <extra_id_10>
+  - <extra_id_11>
+  - <extra_id_12>
+  - <extra_id_13>
+  - <extra_id_14>
+  - <extra_id_15>
+  - <extra_id_16>
+  - <extra_id_17>
+  - <extra_id_18>
+  - <extra_id_19>
+  - <extra_id_20>
+  - <extra_id_21>
+  - <extra_id_22>
+  - <extra_id_23>
+  - <extra_id_24>
+  - <extra_id_25>
+  - <extra_id_26>
+  - <extra_id_27>
+  - <extra_id_28>
+  - <extra_id_29>
+  - <extra_id_30>
+  - <extra_id_31>
+  - <extra_id_32>
+  - <extra_id_33>
+  - <extra_id_34>
+  - <extra_id_35>
+  - <extra_id_36>
+  - <extra_id_37>
+  - <extra_id_38>
+  - <extra_id_39>
+  - <extra_id_40>
+  - <extra_id_41>
+  - <extra_id_42>
+  - <extra_id_43>
+  - <extra_id_44>
+  - <extra_id_45>
+  - <extra_id_46>
+  - <extra_id_47>
+  - <extra_id_48>
+  - <extra_id_49>
+  - <extra_id_50>
+  - <extra_id_51>
+  - <extra_id_52>
+  - <extra_id_53>
+  - <extra_id_54>
+  - <extra_id_55>
+  - <extra_id_56>
+  - <extra_id_57>
+  - <extra_id_58>
+  - <extra_id_59>
+  - <extra_id_60>
+  - <extra_id_61>
+  - <extra_id_62>
+  - <extra_id_63>
+  - <extra_id_64>
+  - <extra_id_65>
+  - <extra_id_66>
+  - <extra_id_67>
+  - <extra_id_68>
+  - <extra_id_69>
+  - <extra_id_70>
+  - <extra_id_71>
+  - <extra_id_72>
+  - <extra_id_73>
+  - <extra_id_74>
+  - <extra_id_75>
+  - <extra_id_76>
+  - <extra_id_77>
+  - <extra_id_78>
+  - <extra_id_79>
+  - <extra_id_80>
+  - <extra_id_81>
+  - <extra_id_82>
+  - <extra_id_83>
+  - <extra_id_84>
+  - <extra_id_85>
+  - <extra_id_86>
+  - <extra_id_87>
+  - <extra_id_88>
+  - <extra_id_89>
+  - <extra_id_90>
+  - <extra_id_91>
+  - <extra_id_92>
+  - <extra_id_93>
+  - <extra_id_94>
+  - <extra_id_95>
+  - <extra_id_96>
+  - <extra_id_97>
+  - <extra_id_98>
+  - <extra_id_99>
+  _bos_token: null
+  _cls_token: null
+  _decode_use_source_tokenizer: false
+  _eos_token: *id001
+  _extra_ids: 100
+  _in_target_context_manager: false
+  _mask_token: null
+  _pad_token: *id002
+  _pad_token_type_id: 0
+  _processor_class: null
+  _sep_token: null
+  _unk_token: *id003
+  chat_template: null
+  clean_up_tokenization_spaces: true
+  deprecation_warnings: {}
+  init_inputs: !!python/tuple []
+  init_kwargs:
+    additional_special_tokens:
+    - <extra_id_0>
+    - <extra_id_1>
+    - <extra_id_2>
+    - <extra_id_3>
+    - <extra_id_4>
+    - <extra_id_5>
+    - <extra_id_6>
+    - <extra_id_7>
+    - <extra_id_8>
+    - <extra_id_9>
+    - <extra_id_10>
+    - <extra_id_11>
+    - <extra_id_12>
+    - <extra_id_13>
+    - <extra_id_14>
+    - <extra_id_15>
+    - <extra_id_16>
+    - <extra_id_17>
+    - <extra_id_18>
+    - <extra_id_19>
+    - <extra_id_20>
+    - <extra_id_21>
+    - <extra_id_22>
+    - <extra_id_23>
+    - <extra_id_24>
+    - <extra_id_25>
+    - <extra_id_26>
+    - <extra_id_27>
+    - <extra_id_28>
+    - <extra_id_29>
+    - <extra_id_30>
+    - <extra_id_31>
+    - <extra_id_32>
+    - <extra_id_33>
+    - <extra_id_34>
+    - <extra_id_35>
+    - <extra_id_36>
+    - <extra_id_37>
+    - <extra_id_38>
+    - <extra_id_39>
+    - <extra_id_40>
+    - <extra_id_41>
+    - <extra_id_42>
+    - <extra_id_43>
+    - <extra_id_44>
+    - <extra_id_45>
+    - <extra_id_46>
+    - <extra_id_47>
+    - <extra_id_48>
+    - <extra_id_49>
+    - <extra_id_50>
+    - <extra_id_51>
+    - <extra_id_52>
+    - <extra_id_53>
+    - <extra_id_54>
+    - <extra_id_55>
+    - <extra_id_56>
+    - <extra_id_57>
+    - <extra_id_58>
+    - <extra_id_59>
+    - <extra_id_60>
+    - <extra_id_61>
+    - <extra_id_62>
+    - <extra_id_63>
+    - <extra_id_64>
+    - <extra_id_65>
+    - <extra_id_66>
+    - <extra_id_67>
+    - <extra_id_68>
+    - <extra_id_69>
+    - <extra_id_70>
+    - <extra_id_71>
+    - <extra_id_72>
+    - <extra_id_73>
+    - <extra_id_74>
+    - <extra_id_75>
+    - <extra_id_76>
+    - <extra_id_77>
+    - <extra_id_78>
+    - <extra_id_79>
+    - <extra_id_80>
+    - <extra_id_81>
+    - <extra_id_82>
+    - <extra_id_83>
+    - <extra_id_84>
+    - <extra_id_85>
+    - <extra_id_86>
+    - <extra_id_87>
+    - <extra_id_88>
+    - <extra_id_89>
+    - <extra_id_90>
+    - <extra_id_91>
+    - <extra_id_92>
+    - <extra_id_93>
+    - <extra_id_94>
+    - <extra_id_95>
+    - <extra_id_96>
+    - <extra_id_97>
+    - <extra_id_98>
+    - <extra_id_99>
+    eos_token: !!python/object:tokenizers.AddedToken
+      content: </s>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    extra_ids: 100
+    legacy: true
+    model_max_length: 512
+    name_or_path: t5-large
+    pad_token: !!python/object:tokenizers.AddedToken
+      content: <pad>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+    sp_model_kwargs: {}
+    tokenizer_file: /mnt/data/core/Grapher/cache/models--t5-large/snapshots/150ebc2c4b72291e770f58e6057481c8d2ed331a/tokenizer.json
+    unk_token: !!python/object:tokenizers.AddedToken
+      content: <unk>
+      lstrip: false
+      normalized: false
+      rstrip: false
+      single_word: false
+      special: true
+  legacy: true
+  model_input_names:
+  - input_ids
+  - attention_mask
+  model_max_length: 512
+  name_or_path: t5-large
+  padding_side: right
+  sp_model: null
+  sp_model_kwargs: {}
+  split_special_tokens: false
+  tokens_trie: !!python/object:transformers.tokenization_utils.Trie
+    _tokens: !!set
+      </s>: null
+      <extra_id_0>: null
+      <extra_id_10>: null
+      <extra_id_11>: null
+      <extra_id_12>: null
+      <extra_id_13>: null
+      <extra_id_14>: null
+      <extra_id_15>: null
+      <extra_id_16>: null
+      <extra_id_17>: null
+      <extra_id_18>: null
+      <extra_id_19>: null
+      <extra_id_1>: null
+      <extra_id_20>: null
+      <extra_id_21>: null
+      <extra_id_22>: null
+      <extra_id_23>: null
+      <extra_id_24>: null
+      <extra_id_25>: null
+      <extra_id_26>: null
+      <extra_id_27>: null
+      <extra_id_28>: null
+      <extra_id_29>: null
+      <extra_id_2>: null
+      <extra_id_30>: null
+      <extra_id_31>: null
+      <extra_id_32>: null
+      <extra_id_33>: null
+      <extra_id_34>: null
+      <extra_id_35>: null
+      <extra_id_36>: null
+      <extra_id_37>: null
+      <extra_id_38>: null
+      <extra_id_39>: null
+      <extra_id_3>: null
+      <extra_id_40>: null
+      <extra_id_41>: null
+      <extra_id_42>: null
+      <extra_id_43>: null
+      <extra_id_44>: null
+      <extra_id_45>: null
+      <extra_id_46>: null
+      <extra_id_47>: null
+      <extra_id_48>: null
+      <extra_id_49>: null
+      <extra_id_4>: null
+      <extra_id_50>: null
+      <extra_id_51>: null
+      <extra_id_52>: null
+      <extra_id_53>: null
+      <extra_id_54>: null
+      <extra_id_55>: null
+      <extra_id_56>: null
+      <extra_id_57>: null
+      <extra_id_58>: null
+      <extra_id_59>: null
+      <extra_id_5>: null
+      <extra_id_60>: null
+      <extra_id_61>: null
+      <extra_id_62>: null
+      <extra_id_63>: null
+      <extra_id_64>: null
+      <extra_id_65>: null
+      <extra_id_66>: null
+      <extra_id_67>: null
+      <extra_id_68>: null
+      <extra_id_69>: null
+      <extra_id_6>: null
+      <extra_id_70>: null
+      <extra_id_71>: null
+      <extra_id_72>: null
+      <extra_id_73>: null
+      <extra_id_74>: null
+      <extra_id_75>: null
+      <extra_id_76>: null
+      <extra_id_77>: null
+      <extra_id_78>: null
+      <extra_id_79>: null
+      <extra_id_7>: null
+      <extra_id_80>: null
+      <extra_id_81>: null
+      <extra_id_82>: null
+      <extra_id_83>: null
+      <extra_id_84>: null
+      <extra_id_85>: null
+      <extra_id_86>: null
+      <extra_id_87>: null
+      <extra_id_88>: null
+      <extra_id_89>: null
+      <extra_id_8>: null
+      <extra_id_90>: null
+      <extra_id_91>: null
+      <extra_id_92>: null
+      <extra_id_93>: null
+      <extra_id_94>: null
+      <extra_id_95>: null
+      <extra_id_96>: null
+      <extra_id_97>: null
+      <extra_id_98>: null
+      <extra_id_99>: null
+      <extra_id_9>: null
+      <pad>: null
+      <unk>: null
+      __no_edge__: null
+      __no_node__: null
+      __node_sep__: null
+    data:
+      <:
+        /:
+          s:
+            '>':
+              ? ''
+              : 1
+        e:
+          x:
+            t:
+              r:
+                a:
+                  _:
+                    i:
+                      d:
+                        _:
+                          '0':
+                            '>':
+                              ? ''
+                              : 1
+                          '1':
+                            '0':
+                              '>':
+                                ? ''
+                                : 1
+                            '1':
+                              '>':
+                                ? ''
+                                : 1
+                            '2':
+                              '>':
+                                ? ''
+                                : 1
+                            '3':
+                              '>':
+                                ? ''
+                                : 1
+                            '4':
+                              '>':
+                                ? ''
+                                : 1
+                            '5':
+                              '>':
+                                ? ''
+                                : 1
+                            '6':
+                              '>':
+                                ? ''
+                                : 1
+                            '7':
+                              '>':
+                                ? ''
+                                : 1
+                            '8':
+                              '>':
+                                ? ''
+                                : 1
+                            '9':
+                              '>':
+                                ? ''
+                                : 1
+                            '>':
+                              ? ''
+                              : 1
+                          '2':
+                            '0':
+                              '>':
+                                ? ''
+                                : 1
+                            '1':
+                              '>':
+                                ? ''
+                                : 1
+                            '2':
+                              '>':
+                                ? ''
+                                : 1
+                            '3':
+                              '>':
+                                ? ''
+                                : 1
+                            '4':
+                              '>':
+                                ? ''
+                                : 1
+                            '5':
+                              '>':
+                                ? ''
+                                : 1
+                            '6':
+                              '>':
+                                ? ''
+                                : 1
+                            '7':
+                              '>':
+                                ? ''
+                                : 1
+                            '8':
+                              '>':
+                                ? ''
+                                : 1
+                            '9':
+                              '>':
+                                ? ''
+                                : 1
+                            '>':
+                              ? ''
+                              : 1
+                          '3':
+                            '0':
+                              '>':
+                                ? ''
+                                : 1
+                            '1':
+                              '>':
+                                ? ''
+                                : 1
+                            '2':
+                              '>':
+                                ? ''
+                                : 1
+                            '3':
+                              '>':
+                                ? ''
+                                : 1
+                            '4':
+                              '>':
+                                ? ''
+                                : 1
+                            '5':
+                              '>':
+                                ? ''
+                                : 1
+                            '6':
+                              '>':
+                                ? ''
+                                : 1
+                            '7':
+                              '>':
+                                ? ''
+                                : 1
+                            '8':
+                              '>':
+                                ? ''
+                                : 1
+                            '9':
+                              '>':
+                                ? ''
+                                : 1
+                            '>':
+                              ? ''
+                              : 1
+                          '4':
+                            '0':
+                              '>':
+                                ? ''
+                                : 1
+                            '1':
+                              '>':
+                                ? ''
+                                : 1
+                            '2':
+                              '>':
+                                ? ''
+                                : 1
+                            '3':
+                              '>':
+                                ? ''
+                                : 1
+                            '4':
+                              '>':
+                                ? ''
+                                : 1
+                            '5':
+                              '>':
+                                ? ''
+                                : 1
+                            '6':
+                              '>':
+                                ? ''
+                                : 1
+                            '7':
+                              '>':
+                                ? ''
+                                : 1
+                            '8':
+                              '>':
+                                ? ''
+                                : 1
+                            '9':
+                              '>':
+                                ? ''
+                                : 1
+                            '>':
+                              ? ''
+                              : 1
+                          '5':
+                            '0':
+                              '>':
+                                ? ''
+                                : 1
+                            '1':
+                              '>':
+                                ? ''
+                                : 1
+                            '2':
+                              '>':
+                                ? ''
+                                : 1
+                            '3':
+                              '>':
+                                ? ''
+                                : 1
+                            '4':
+                              '>':
+                                ? ''
+                                : 1
+                            '5':
+                              '>':
+                                ? ''
+                                : 1
+                            '6':
+                              '>':
+                                ? ''
+                                : 1
+                            '7':
+                              '>':
+                                ? ''
+                                : 1
+                            '8':
+                              '>':
+                                ? ''
+                                : 1
+                            '9':
+                              '>':
+                                ? ''
+                                : 1
+                            '>':
+                              ? ''
+                              : 1
+                          '6':
+                            '0':
+                              '>':
+                                ? ''
+                                : 1
+                            '1':
+                              '>':
+                                ? ''
+                                : 1
+                            '2':
+                              '>':
+                                ? ''
+                                : 1
+                            '3':
+                              '>':
+                                ? ''
+                                : 1
+                            '4':
+                              '>':
+                                ? ''
+                                : 1
+                            '5':
+                              '>':
+                                ? ''
+                                : 1
+                            '6':
+                              '>':
+                                ? ''
+                                : 1
+                            '7':
+                              '>':
+                                ? ''
+                                : 1
+                            '8':
+                              '>':
+                                ? ''
+                                : 1
+                            '9':
+                              '>':
+                                ? ''
+                                : 1
+                            '>':
+                              ? ''
+                              : 1
+                          '7':
+                            '0':
+                              '>':
+                                ? ''
+                                : 1
+                            '1':
+                              '>':
+                                ? ''
+                                : 1
+                            '2':
+                              '>':
+                                ? ''
+                                : 1
+                            '3':
+                              '>':
+                                ? ''
+                                : 1
+                            '4':
+                              '>':
+                                ? ''
+                                : 1
+                            '5':
+                              '>':
+                                ? ''
+                                : 1
+                            '6':
+                              '>':
+                                ? ''
+                                : 1
+                            '7':
+                              '>':
+                                ? ''
+                                : 1
+                            '8':
+                              '>':
+                                ? ''
+                                : 1
+                            '9':
+                              '>':
+                                ? ''
+                                : 1
+                            '>':
+                              ? ''
+                              : 1
+                          '8':
+                            '0':
+                              '>':
+                                ? ''
+                                : 1
+                            '1':
+                              '>':
+                                ? ''
+                                : 1
+                            '2':
+                              '>':
+                                ? ''
+                                : 1
+                            '3':
+                              '>':
+                                ? ''
+                                : 1
+                            '4':
+                              '>':
+                                ? ''
+                                : 1
+                            '5':
+                              '>':
+                                ? ''
+                                : 1
+                            '6':
+                              '>':
+                                ? ''
+                                : 1
+                            '7':
+                              '>':
+                                ? ''
+                                : 1
+                            '8':
+                              '>':
+                                ? ''
+                                : 1
+                            '9':
+                              '>':
+                                ? ''
+                                : 1
+                            '>':
+                              ? ''
+                              : 1
+                          '9':
+                            '0':
+                              '>':
+                                ? ''
+                                : 1
+                            '1':
+                              '>':
+                                ? ''
+                                : 1
+                            '2':
+                              '>':
+                                ? ''
+                                : 1
+                            '3':
+                              '>':
+                                ? ''
+                                : 1
+                            '4':
+                              '>':
+                                ? ''
+                                : 1
+                            '5':
+                              '>':
+                                ? ''
+                                : 1
+                            '6':
+                              '>':
+                                ? ''
+                                : 1
+                            '7':
+                              '>':
+                                ? ''
+                                : 1
+                            '8':
+                              '>':
+                                ? ''
+                                : 1
+                            '9':
+                              '>':
+                                ? ''
+                                : 1
+                            '>':
+                              ? ''
+                              : 1
+        p:
+          a:
+            d:
+              '>':
+                ? ''
+                : 1
+        u:
+          n:
+            k:
+              '>':
+                ? ''
+                : 1
+      _:
+        _:
+          n:
+            o:
+              _:
+                e:
+                  d:
+                    g:
+                      e:
+                        _:
+                          _:
+                            ? ''
+                            : 1
+                n:
+                  o:
+                    d:
+                      e:
+                        _:
+                          _:
+                            ? ''
+                            : 1
+              d:
+                e:
+                  _:
+                    s:
+                      e:
+                        p:
+                          _:
+                            _:
+                              ? ''
+                              : 1
+  truncation_side: right
+  verbose: false
+  vocab_file: /mnt/data/core/Grapher/cache/models--t5-large/snapshots/150ebc2c4b72291e770f58e6057481c8d2ed331a/spiece.model
+transformer_class: !!python/name:transformers.models.t5.modeling_t5.T5ForConditionalGeneration ''
+transformer_name: t5-large
+vocab_size: 32103
