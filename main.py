@@ -167,12 +167,3 @@ if __name__ == "__main__":
     args = parser.parse_args()
     main(args)
 
-#######################################
-# Run
-#######################################
-# https://github.com/IBM/Grapher
-# I slightly modified the statement from the one in the manual of the Github repo.
-    
-# Train
-# 
-# python3 main.py --run inference --version 1 --default_root_dir output --inference_input_text "Danielle Harris had a main role in Super Capers, a 98 minute long movie."

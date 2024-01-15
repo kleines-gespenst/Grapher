@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 cd ../
-python3 main.py    --version 2\
+python3 main.py   --version 2\
                   --default_root_dir output \
                   --run train \
                   --max_epochs 100 \
