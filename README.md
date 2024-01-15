@@ -40,8 +40,10 @@ cd Grapher
 # clone an external repository for reading the data
 git submodule add https://gitlab.com/webnlg/corpus-reader.git corpusreader
 git submodule add https://gitlab.com/webnlg/corpus-reader.git corpusreader
+git submodule add https://gitlab.com/webnlg/corpus-reader.git corpusreader
 
 # clone another external repositories for scoring the results
+git submodule add https://github.com/WebNLG/WebNLG-Text-to-triples.git WebNLG_Text_to_triples
 git submodule add https://github.com/WebNLG/WebNLG-Text-to-triples.git WebNLG_Text_to_triples
 git submodule add https://github.com/WebNLG/WebNLG-Text-to-triples.git WebNLG_Text_to_triples
  ```   
