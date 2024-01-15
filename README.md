@@ -58,19 +58,19 @@ There are two scripts to run two versions of the algorithm
 cd scripts
 
 # run Grapher with the edge generation head
-bash train_gen.sh
+./train_gen.sh
 
 # run Grapher with the classifier edge head
-bash train_class.sh
+./train_class.sh
 ```
 
 ## How to test
 ```bash
 # run the test on experiment "webnlg_version_1" using latest checkpoint last.ckpt
-python main.py --run test --version 1 --default_root_dir output --data_path webnlg-dataset/release_v3.0/en
+python3 main.py --run test --version 1 --default_root_dir output --data_path webnlg-dataset/release_v3.0/en
 
 # run the test on experiment "webnlg_version_1" using checkpoint at iteration 5000
-python main.py --run test --version 1 --default_root_dir output --data_path webnlg-dataset/release_v3.0/en --checkpoint_model_id 5000
+python3 main.py --run test --version 1 --default_root_dir output --data_path webnlg-dataset/release_v3.0/en --checkpoint_model_id 5000
 ```
 
 ## How to run inference
@@ -94,3 +94,7 @@ tensorboard --logdir output
   year={2022}
 }
 ```   
+
+# Reproducibility study
+The scripts ./train_gen and ./train_class.sh both produce an error during execution due to several non-existing arguments passed during the call of main.py (see below).
+`main.py: error: unrecognized arguments: --max_epochs 100 --accelerator gpu --num_nodes 1 --num_sanity_val_steps 0 --fast_dev_run 0 --overfit_batches 0 --limit_train_batches 1.0 --limit_val_batches 1.0 --limit_test_batches 1.0 --accumulate_grad_batches 10 --detect_anomaly True --log_every_n_steps 100 --val_check_interval 1000`

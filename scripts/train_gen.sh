@@ -1,17 +1,24 @@
 #!/usr/bin/env bash
 cd ../
-python3 main.py   --version 2\
-                  --default_root_dir output \
-                  --run train \
-                  --max_epochs 100 \
+python3 main.py   --max_epochs 100 \ 
                   --accelerator gpu \
                   --num_nodes 1 \
-                  --num_data_workers 4 \
-                  --lr 1e-4 \
-                  --batch_size 11 \
                   --num_sanity_val_steps 0 \
                   --fast_dev_run 0 \
                   --overfit_batches 0 \
+
+
+                  --version 2 \
+                  --default_root_dir output \
+                  --run train \
+
+                  
+                  --num_data_workers 4 \
+                  --lr 1e-4 \
+                  --batch_size 11 \
+                  
+                  
+                  
                   --limit_train_batches 1.0 \
                   --limit_val_batches 1.0 \
                   --limit_test_batches 1.0 \
