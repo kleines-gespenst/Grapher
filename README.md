@@ -38,10 +38,10 @@ git clone git@github.com:IBM/Grapher.git
 cd Grapher
 
 # clone an external repository for reading the data
-git clone https://gitlab.com/webnlg/corpus-reader.git corpusreader
+git submodule add https://gitlab.com/webnlg/corpus-reader.git corpusreader
 
 # clone another external repositories for scoring the results
-git clone https://github.com/WebNLG/WebNLG-Text-to-triples.git WebNLG_Text_to_triples
+git submodule add https://github.com/WebNLG/WebNLG-Text-to-triples.git WebNLG_Text_to_triples
  ```   
 ## Data
 
@@ -101,3 +101,5 @@ The scripts ./train_gen and ./train_class.sh both produce an error during execut
 
 Some additional libraries are required, such as `SentencePie`(See below).
 `T5Tokenizer requires the SentencePiece library but it was not found in your environment. Checkout the instructions on the installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones that match your environment. Please note that you may need to restart your runtime after installation.`
+
+Instead of just cloning the two separately needed git repositories corpusreader and WebNLG-Text-to-triples, I added them as submodules (See [Setup](#Setup) section).
