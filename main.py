@@ -200,7 +200,7 @@ if __name__ == "__main__":
     parser.add_argument("--limit_val_batches", type=float, default=1.0)
     parser.add_argument("--limit_test_batches", type=float, default=1.0)
     parser.add_argument("--accumulate_grad_batches", type=int, default=10)
-    parser.add_argument("--detect_anomaly", type=bool, default=True)
+    parser.add_argument("--detect_anomaly", type=bool, default=False)
     parser.add_argument("--log_every_n_steps", type=int, default=100)
     parser.add_argument("--val_check_interval", type=int, default=1000)
     parser.add_argument("--inference_input_text", type=str,
