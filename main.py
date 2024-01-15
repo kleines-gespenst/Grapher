@@ -1,11 +1,13 @@
 from data.dataset import GraphDataModule
 from pytorch_lightning import loggers as pl_loggers
 import argparse
+from argparse import ArgumentParser
 from model.litgrapher import LitGrapher
 import pytorch_lightning as pl
 from transformers import T5Tokenizer, T5ForConditionalGeneration
 import os
 from pytorch_lightning.callbacks import ModelCheckpoint, RichProgressBar
+from pytorch_lightning.utilities import argparse
 from misc.utils import decode_graph
 
 def main(args):
@@ -78,7 +80,6 @@ def main(args):
         trainer = pl.Trainer.from_argparse_args(args,
                                                 logger=TB,
                                                 callbacks=[checkpoint_callback, RichProgressBar(10)])
-
         dm.setup(stage='validate')
 
         trainer.fit(model=grapher, datamodule=dm, ckpt_path=checkpoint_model_path)
@@ -103,7 +104,6 @@ def main(args):
         dm.setup(stage='test')
 
         trainer = pl.Trainer.from_argparse_args(args, logger=TB)
-
         trainer.test(grapher, datamodule=dm)
 
     else: # single inference
@@ -138,9 +138,10 @@ def main(args):
 if __name__ == "__main__":
     
     # Parsing arguments
-    parser = argparse.ArgumentParser(description='Arguments')
+    parser = ArgumentParser(description='Arguments')
 
     parser.add_argument("--dataset", type=str, default='webnlg')
+    parser.add_argument("--default_root_dir", type=str, default="output")
     parser.add_argument("--run", type=str, default='train')
     parser.add_argument('--pretrained_model', type=str, default='t5-large')
     parser.add_argument('--version', type=str, default='0')
@@ -161,10 +162,17 @@ if __name__ == "__main__":
     parser.add_argument("--num_layers", type=int, default=1)
     parser.add_argument("--eval_dump_only", type=int, default=0)
     parser.add_argument("--inference_input_text", type=str,
-                        default='Danielle Harris had a main role in Super Capers, a 98 minute long movie.')
-
-    parser = pl.Trainer.add_argparse_args(parser)
-
+                        default='Danielle Harris had a main role in Super Capers, a 98 minute long movie.') 
+    #parser = pl.Trainer.add_argparse_args(parser)
     args = parser.parse_args()
-
     main(args)
+
+#######################################
+# Run
+#######################################
+# https://github.com/IBM/Grapher
+# I slightly modified the statement from the one in the manual of the Github repo.
+    
+# Train
+# 
+# python3 main.py --run inference --version 1 --default_root_dir output --inference_input_text "Danielle Harris had a main role in Super Capers, a 98 minute long movie."

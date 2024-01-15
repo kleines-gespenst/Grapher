@@ -1,0 +1,1 @@
+# Train the model with the data provided in /mnt/data/core/Grapher/webnlg-dataset/release_v3.0/en

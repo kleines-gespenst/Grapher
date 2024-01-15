@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 cd ../
-python main.py    --version 1\
+python3 main.py    --version 1\
                   --default_root_dir output \
                   --run train \
                   --max_epochs 100 \
@@ -17,7 +17,7 @@ python main.py    --version 1\
                   --limit_test_batches 1.0 \
                   --accumulate_grad_batches 10 \
                   --detect_anomaly True \
-                  --data_path webnlg-dataset/release_v3.0/en \
+                  --data_path /mnt/data/core/Grapher/webnlg-dataset/release_v3.0/en \
                   --log_every_n_steps 100 \
                   --val_check_interval 1000 \
                   --checkpoint_step_frequency 1000 \
