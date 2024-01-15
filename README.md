@@ -112,3 +112,5 @@ T5Tokenizer requires the SentencePiece library but it was not found in your envi
 ```
 
 Instead of just cloning the two separately needed git repositories corpusreader and WebNLG-Text-to-triples, I added them as submodules (See [Setup](#Setup) section).
+
+Add parameter cache_dir because the model training requires 2950.74 MB for T5.
