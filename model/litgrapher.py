@@ -88,6 +88,8 @@ class LitGrapher(pl.LightningModule):
         self.noedge_id = noedge_id
         self.eval_dir=eval_dir
         self.lr = lr
+        self.validation_step_outputs = [] 
+
 
     def training_step(self, batch, batch_idx):
 
@@ -153,7 +155,7 @@ class LitGrapher(pl.LightningModule):
 
         return decodes
 
-    def eval_epoch_end(self, outputs, split):
+    def eval_epoch_end(self, split):
 
         iteration = self.global_step
         rank = self.global_rank
@@ -161,7 +163,7 @@ class LitGrapher(pl.LightningModule):
         dec_target_all = []
         dec_pred_all = []
 
-        for out in outputs:
+        for out in self.validation_step_outputs:
             dec_target_all += out['dec_target']
             dec_pred_all += out['dec_pred']
 
@@ -181,16 +183,27 @@ class LitGrapher(pl.LightningModule):
         self.log_dict(scores)
 
     def validation_step(self, batch, batch_idx):
-        return self.eval_step(batch, batch_idx, 'valid')
+        decodes = self.eval_step(batch, batch_idx, 'valid')
+        self.validation_step_outputs.append(decodes)
+        return decodes  
 
     def test_step(self, batch, batch_idx):
-        return self.eval_step(batch, batch_idx, 'test')
+        decodes =  self.eval_step(batch, batch_idx, 'test')
+        self.validation_step_outputs.append(decodes)
+        return decodes
 
-    def on_validation_epoch_end(self, outputs):
-        self.eval_epoch_end(outputs, 'valid')
 
-    def on_test_epoch_end(self, outputs):
-        self.eval_epoch_end(outputs, 'test')
+    #def on_validation_epoch_end(self, outputs):
+    #   self.eval_epoch_end(outputs, 'valid')
+
+    #def on_test_epoch_end(self, outputs):
+    #   self.eval_epoch_end(outputs, 'test')
+
+    def on_validation_epoch_end(self):
+       self.eval_epoch_end('valid')
+
+    def on_test_epoch_end(self):
+        self.eval_epoch_end('test')
 
     def configure_optimizers(self):
         optimizer = torch.optim.AdamW(self.parameters(), self.lr)

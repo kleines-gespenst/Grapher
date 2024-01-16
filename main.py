@@ -204,7 +204,7 @@ if __name__ == "__main__":
     parser.add_argument("--val_check_interval", type=int, default=1000)
     parser.add_argument("--inference_input_text", type=str,
                         default='Danielle Harris had a main role in Super Capers, a 98 minute long movie.') 
-    #parser = pl.Trainer.add_argparse_args(parser)
+    
     args = parser.parse_args()
     main(args)
 

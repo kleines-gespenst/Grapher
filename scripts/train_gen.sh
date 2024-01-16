@@ -7,7 +7,7 @@ python3 main.py   --version 2 \
                   --batch_size 11 \
                   --data_path /mnt/data/core/Grapher/webnlg-dataset/release_v3.0/en \
                   --cache_dir /mnt/data/core/Grapher/cache \
-                  --checkpoint_step_frequency 1000 \
+                  --checkpoint_step_frequency 10 \
                   --focal_loss_gamma 3 \
                   --dropout_rate 0.5 \
                   --num_layers 2 \
@@ -25,7 +25,11 @@ python3 main.py   --version 2 \
                   --limit_test_batches 1.0 \
                   --accumulate_grad_batches 10 \
                   --log_every_n_steps 100 \
-                  --val_check_interval 1000 \
+                  --val_check_interval 10 \
 
 # Problems with interpreting 0 as False in main.py
 # --detect_anomaly 0 \
+
+# --checkpoint_step_frequency 1000 \
+# --val_check_interval 1000 \
+# --max_epochs 100 \

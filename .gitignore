@@ -1,3 +1,4 @@
 corpusreader/
 WebNLG_Text_to_triples/
 output/
+model/__pycache__/

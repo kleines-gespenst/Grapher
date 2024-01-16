@@ -101,21 +101,21 @@ tensorboard --logdir output
 ```   
 
 # Reproducibility study
-The scripts ./train_gen and ./train_class.sh both produce an error during execution due to several non-existing arguments passed during the call of main.py (see below).
+* The scripts ./train_gen and ./train_class.sh both produce an error during execution due to several non-existing arguments passed during the call of main.py (see below).
 ```
 main.py: error: unrecognized arguments: --max_epochs 100 --accelerator gpu --num_nodes 1 --num_sanity_val_steps 0 --fast_dev_run 0 --overfit_batches 0 --limit_train_batches 1.0 --limit_val_batches 1.0 --limit_test_batches 1.0 --accumulate_grad_batches 10 --detect_anomaly True --log_every_n_steps 100 --val_check_interval 1000
 ```
 
-Some additional libraries are required, such as `SentencePie`(See below).
+* Some additional libraries are required, such as `SentencePie`(See below).
 ```
 T5Tokenizer requires the SentencePiece library but it was not found in your environment. Checkout the instructions on the installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones that match your environment. Please note that you may need to restart your runtime after installation.
 ```
 
-Instead of just cloning the two separately needed git repositories corpusreader and WebNLG-Text-to-triples, I added them as submodules (See [Setup](#Setup) section) and included them in gitignore in order to not track the pycache changes.
+* Instead of just cloning the two separately needed git repositories corpusreader and WebNLG-Text-to-triples, I added them as submodules (See [Setup](#Setup) section) and included them in gitignore in order to not track the pycache changes.
 
-Add parameter cache_dir because the model training requires 2950.74 MB for T5.
+* I added the parameter cache_dir to point to a directory with enough space, because the model training requires 2950.74 MB for T5.
 
-I updated two functions in litgrapher.py due to incompatibilities with pytorch_lightning >= 2.0.0:
+* I updated two function names and interfaces in litgrapher.py due to incompatibilities with pytorch_lightning >= 2.0.0:
 ```
 validation_epoch_end -> on_validation_epoch_end
 test_epoch_end -> on_test_epoch_end
