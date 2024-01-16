@@ -14,7 +14,7 @@ python3 main.py   --version 2 \
                   --edges_as_classes 0 \
                   --checkpoint_model_id -1 \
                   --default_root_dir output \
-                  --accelerator cpu \
+                  --accelerator gpu \
                   --max_epochs 100 \
                   --num_nodes 1 \
                   --num_sanity_val_steps 0 \
