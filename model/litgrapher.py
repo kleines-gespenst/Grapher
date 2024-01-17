@@ -109,9 +109,11 @@ class LitGrapher(pl.LightningModule):
 
         loss = compute_loss(self.criterion, logits_nodes, logits_edges, target_nodes,
                             target_edges, self.edges_as_classes, self.focal_loss_gamma)
-
         self.log('train_loss', loss, on_step=True, on_epoch=True, logger=True, sync_dist=True, batch_size=text_input_ids.size(0))
-
+        
+        # Free up GPU memory
+        torch.cuda.empty_cache()
+        
         return loss
 
     def eval_step(self, batch, batch_idx, split):

@@ -1,10 +1,21 @@
 #!/usr/bin/env bash
+##################################################################
+# TU Wien specific variables
+##################################################################
+export CUDA_VISIBLE_DEVICES=1
+
+##################################################################vv
+# CUDA variables
+##################################################################
+# prevents the allocator from splitting blocks larger than this size (in MB).
+export PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:1024
+
 cd ../
 python3 main.py   --version 2 \
                   --run train \
                   --num_data_workers 4 \
                   --lr 1e-4 \
-                  --batch_size 11 \
+                  --batch_size 8 \
                   --data_path /newstorage4/fkovacev/data/core/Grapher/webnlg-dataset/release_v3.0/en \
                   --cache_dir /newstorage4/fkovacev/data/core/Grapher/cache \
                   --checkpoint_step_frequency 1000 \

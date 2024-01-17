@@ -1,4 +1,15 @@
 #!/usr/bin/env bash
+##################################################################
+# TU Wien specific variables
+##################################################################
+export CUDA_VISIBLE_DEVICES=1
+
+##################################################################vv
+# CUDA variables
+##################################################################
+# prevents the allocator from splitting blocks larger than this size (in MB).
+export PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:512
+
 cd ../
 python3 main.py   --version 1\
                   --run train \
